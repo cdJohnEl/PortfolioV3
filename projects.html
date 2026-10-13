@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Student portfolio and academic planner">
+    <title>Projects | Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700&family=Jersey+10&family=Space+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="window">
+        <header class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <button class="icon-btn nav-toggle" aria-expanded="false" aria-controls="nav"
+                aria-label="Toggle menu">&#9776;</button>
+            <nav id="nav" class="nav" aria-label="Main">
+                <ul>
+                    <li><a href="index.html">★ Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" aria-current="page">Projects</a></li>
+                    <li><a href="planner.html">Planner</a></li>
+                </ul>
+            </nav>
+            <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9680;</button>
+            <a class="btn btn-small" href="contact.html">Contact</a>
+        </header>
+        <main id="main">
+
+            <section class="container section">
+                <p class="hand label">maybe worth a look</p>
+                <h1 class="display">Featured works</h1>
+                <div class="stack">
+                    <article class="panel p-ink">
+                        <div class="panel-text"><span class="tag t-blue">Project #01</span>
+                            <p class="mono small">MAR 2026</p>
+                            <h2>Naija Freelance</h2>
+                            <p>A job board platform connecting remote workers in Nigeria with remote job opportunities
+                                worldwide, featuring job listings, applications, and tailored resumes and cover letters.
+                            </p>
+                            <p class="mono small">HTML / CSS / JavaScript / Firebase</p>
+                            <p class="links"><a class="btn" href="https://naijafreelance.onrender.com/" target="_blank"
+                                    rel="noopener">Live demo &#8599;</a> <a class="btn"
+                                    href="https://github.com/cdJohnEl/naija_freelancer.git" target="_blank"
+                                    rel="noopener">Source code &#8599;</a></p>
+                        </div><img src="assets/project1.png" alt="Screenshot of Naija Freelance" width="480"
+                            height="270" loading="lazy">
+                    </article>
+                    <article class="panel p-yellow">
+                        <div class="panel-text"><span class="tag t-pink">Project #02</span>
+                            <p class="mono small">MAY 2026</p>
+                            <h2>PocketLens</h2>
+                            <p>A web application that allows users to upload receipts and automatically extract and
+                                categorize expense data using OCR and AI technologies and also receive AI-powered
+                                financial insights.
+                            </p>
+                            <p class="mono small">NextJS / TypeScript / Firebase</p>
+                            <p class="links"><a class="btn" href="https://pocketlens.onrender.com/" target="_blank"
+                                    rel="noopener">Live demo &#8599;</a> <a class="btn"
+                                    href="https://github.com/cdJohnEl/PocketLens.git" target="_blank"
+                                    rel="noopener">Source code &#8599;</a></p>
+                        </div><img src="assets/project2.png" alt="Screenshot of Pocketlens" width="480" height="270"
+                            loading="lazy">
+                    </article>
+                    <article class="panel p-blue">
+                        <div class="panel-text"><span class="tag t-green">Project #03</span>
+                            <p class="mono small">AUG 2026</p>
+                            <h2>Awalane</h2>
+                            <p>An AI-powered niche discovery dashboard for Nigerian content creators. Find underserved
+                                content niches with high growth potential, powered by real-time data and Groq AI.
+                            </p>
+                            <p class="mono small">NextJS / Tailwind / Groq AI</p>
+                            <p class="links"><a class="btn" href="https://awalane.vercel.app/" target="_blank"
+                                    rel="noopener">Live demo &#8599;</a> <a class="btn"
+                                    href="https://github.com/cdJohnEl/Awalane.git" target="_blank" rel="noopener">Source
+                                    code &#8599;</a></p>
+                        </div><img src="assets/project3.png" alt="Screenshot of Awalane" width="480" height="270"
+                            loading="lazy">
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <p class="mono">&copy; <span id="year">2026</span> Your Name &middot; Built for COS 106, MIVA Open
+                University</p>
+        </footer>
+    </div>
+    <script src="js/main.js" defer></script>
+
+</body>
+
+</html>

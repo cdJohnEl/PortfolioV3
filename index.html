@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Student portfolio and academic planner">
+    <title>Home | Chimdike John</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700&family=Jersey+10&family=Space+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="window">
+        <header class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <button class="icon-btn nav-toggle" aria-expanded="false" aria-controls="nav"
+                aria-label="Toggle menu">&#9776;</button>
+            <nav id="nav" class="nav" aria-label="Main">
+                <ul>
+                    <li><a href="index.html" aria-current="page">★ Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="planner.html">Planner</a></li>
+                </ul>
+            </nav>
+            <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9680;</button>
+            <a class="btn btn-small" href="contact.html">Contact</a>
+        </header>
+        <main id="main">
+
+            <section class="hero container">
+                <div class="name-wrap">
+                    <span class="tag t-green rot-l">make things</span>
+                    <span class="tag t-sand rot-r">sweat the details</span>
+                    <h1 class="name-box"><span class="hand">hi, my name is</span><span class="display">Chimdike
+                            John</span></h1>
+                    <p class="mono small"><span class="live" aria-hidden="true"></span> Open to new work &amp; good
+                        problems</p>
+                </div>
+                <figure class="polaroid tilt-r"><img src="assets/profile_photo1.jpg" alt="Portrait of Chimdike John"
+                        width="240" height="240">
+                    <figcaption class="hand">that's me!</figcaption>
+                </figure>
+                <div class="intro">
+                    <p class="statement">Welcome! I build websites that get out of your way. </p>
+                    <div class="actions"><a class="btn btn-primary" href="projects.html">See my work</a><a
+                            class="btn btn-ghost" href="planner.html">Try the planner</a></div>
+                </div>
+            </section>
+            <section class="container section">
+                <p class="hand label">a little bio</p>
+                <h2>Brief biography</h2>
+                <p class="lead">I am John Chimdike Ezekiel, a full-stack software developer and Computer Science student
+                    at Miva Open University. With a strong foundation in modern web technologies like React, Next.js,
+                    Node.js, and Python, I love turning complex ideas into responsive, accessible, and AI-powered
+                    applications. From building smart tools like PocketLens and MoniPal to competing in global
+                    hackathons, I constantly push the boundaries of my craft and learn something new about the web every
+                    week.</p>
+                <div class="grid grid-3">
+                    <article class="scrap s-blue">
+                        <p class="stat">3+</p>
+                        <p>Projects built</p>
+                    </article>
+                    <article class="scrap s-sand">
+                        <p class="stat">3</p>
+                        <p>Core web languages</p>
+                    </article>
+                    <article class="scrap s-pink">
+                        <p class="stat">100%</p>
+                        <p>Mobile friendly</p>
+                    </article>
+                </div>
+            </section>
+            <section class="container section">
+                <p class="hand label">say hello</p>
+                <h2>Introduction video</h2>
+                <video class="media" controls preload="metadata" poster="assets/project1.svg">
+                    <source src="assets/intro.mp4" type="video/mp4">Your browser does not support the video element.
+                </video>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <p class="mono">&copy; <span id="year">2026</span> Chimdike John &middot; Built for COS 106, MIVA Open
+                University</p>
+        </footer>
+    </div>
+    <script src="js/main.js" defer></script>
+
+</body>
+
+</html>

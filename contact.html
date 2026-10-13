@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Student portfolio and academic planner">
+    <title>Contact | Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700&family=Jersey+10&family=Space+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="window">
+        <header class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <button class="icon-btn nav-toggle" aria-expanded="false" aria-controls="nav"
+                aria-label="Toggle menu">&#9776;</button>
+            <nav id="nav" class="nav" aria-label="Main">
+                <ul>
+                    <li><a href="index.html">★ Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="planner.html">Planner</a></li>
+                </ul>
+            </nav>
+            <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9680;</button>
+            <a class="btn btn-small" href="contact.html" aria-current="page">Contact</a>
+        </header>
+        <main id="main">
+
+            <section class="container section">
+                <p class="hand label">say hi</p>
+                <h1 class="display">Contact</h1>
+                <div class="contact-grid">
+                    <figure class="polaroid tilt-l hide-sm"><img src="assets/workspace.png"
+                            alt="Abstract colourful screen" width="240" height="240">
+                        <figcaption class="hand">my desk</figcaption>
+                    </figure>
+                    <form id="contact-form" class="note form" novalidate>
+                        <p class="hand big">Got a project, a bad problem, or just want to say hi? Drop me a line.</p>
+                        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text"
+                                autocomplete="name">
+                            <p class="error" id="name-err"></p>
+                        </div>
+                        <div class="field"><label for="email">Email address</label><input id="email" name="email"
+                                type="email" autocomplete="email">
+                            <p class="error" id="email-err"></p>
+                        </div>
+                        <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone"
+                                type="tel" inputmode="numeric" autocomplete="tel">
+                            <p class="error" id="phone-err"></p>
+                        </div>
+                        <div class="field"><label for="message">Message</label><textarea id="message" name="message"
+                                rows="5"></textarea>
+                            <p class="error" id="message-err"></p>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Send message</button>
+                        <p id="form-status" class="success" role="status"></p>
+                    </form>
+                    <figure class="polaroid tilt-r hide-sm"><img src="assets/workspace.png"
+                            alt="Abstract colourful screen" width="240" height="240">
+                        <figcaption class="hand">my setup</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <p class="mono">&copy; <span id="year">2026</span> Your Name &middot; Built for COS 106, MIVA Open
+                University</p>
+        </footer>
+    </div>
+    <script src="js/main.js" defer></script>
+    <script src="js/contact.js" defer></script>
+</body>
+
+</html>

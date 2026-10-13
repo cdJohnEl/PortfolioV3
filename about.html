@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Student portfolio and academic planner">
+    <title>About | Chimdike John</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700&family=Jersey+10&family=Space+Mono:wght@400;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="window">
+        <header class="chrome">
+            <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <button class="icon-btn nav-toggle" aria-expanded="false" aria-controls="nav"
+                aria-label="Toggle menu">&#9776;</button>
+            <nav id="nav" class="nav" aria-label="Main">
+                <ul>
+                    <li><a href="index.html">★ Home</a></li>
+                    <li><a href="about.html" aria-current="page">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="planner.html">Planner</a></li>
+                </ul>
+            </nav>
+            <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9680;</button>
+            <a class="btn btn-small" href="contact.html">Contact</a>
+        </header>
+        <main id="main">
+
+            <section class="container section">
+                <p class="hand label">about me</p>
+                <h1 class="display">About</h1>
+                <div class="about-top">
+                    <figure class="polaroid tilt-l"><img src="assets/profile_photo2.jpg" alt="Portrait of Chimdike John"
+                            width="240" height="240">
+                        <figcaption class="hand">me, mid-coding</figcaption>
+                    </figure>
+                    <article class="note">
+                        <h2>What's up?</h2>
+                        <p class="hand big">I'm John Chimdike Ezekiel, a Computer Science student at Miva Open
+                            University and a full-stack developer who gets a little too excited about making complicated
+                            things feel simple—whether that's building AI-powered apps or automated bots</p>
+                        <h3>Career aspirations</h3>
+                        <p>My goal is to design intuitive products people genuinely love using, while continuing to
+                            mentor the next generation of tech talent, building on the community work I started with the
+                            NextGen STEM Quest.</p>
+                    </article>
+                </div>
+                <h2>Technical skills</h2>
+                <ul class="chips">
+                    <li class="c-yellow">HTML5</li>
+                    <li class="c-green">CSS3</li>
+                    <li class="c-blue">JavaScript</li>
+                    <li class="c-pink">Git &amp; GitHub</li>
+                    <li class="c-yellow">Responsive design</li>
+                    <li class="c-green">Accessibility</li>
+                    <li class="c-blue">React</li>
+                    <li class="c-pink">Next.js</li>
+                    <li class="c-yellow">TypeScript</li>
+                    <li class="c-green">Node.js</li>
+                    <li class="c-blue">Python</li>
+                    <li class="c-pink">Tailwind CSS</li>
+                    <li class="c-yellow">Docker &amp; Cloud Deployment</li>
+                    <li class="c-green">Firebase</li>
+                </ul>
+                <div class="grid grid-2 gap-top">
+                    <article class="scrap s-sand">
+                        <h2>Educational background</h2>
+                        <table>
+                            <caption class="sr">Education timeline</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Year</th>
+                                    <th scope="col">Institution</th>
+                                    <th scope="col">Qualification</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2026 - now</td>
+                                    <td>MIVA Open University</td>
+                                    <td>B.Sc. Computer Science</td>
+                                </tr>
+                                <tr>
+                                    <td>2023 - 2024</td>
+                                    <td>ALX Africa</td>
+                                    <td>Diploma Software Engineering</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <article class="scrap s-green">
+                        <h2>Hobbies and interests</h2>
+                        <ul class="plain">
+                            <li>&#128187; Coding side projects</li>
+                            <li>&#128218; Reading</li>
+                            <li>&#9917; Gaming</li>
+                            <li>&#127911; Music</li>
+                        </ul>
+                        <h3>Listen: how I got into tech</h3>
+                        <audio controls preload="none">
+                            <source src="assets/story.mp3" type="audio/mpeg">Your browser does not support audio.
+                        </audio>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <p class="mono">&copy; <span id="year">2026</span> Chimdike John &middot; Built for COS 106, MIVA Open
+                University</p>
+        </footer>
+    </div>
+    <script src="js/main.js" defer></script>
+
+</body>
+
+</html>

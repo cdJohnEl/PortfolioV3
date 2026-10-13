@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Student portfolio and academic planner">
+<title>Academic Planner | Your Name</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700&family=Jersey+10&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="window">
+<header class="chrome">
+<span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+<button class="icon-btn nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu">&#9776;</button>
+<nav id="nav" class="nav" aria-label="Main"><ul><li><a href="index.html">★ Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html" aria-current="page">Planner</a></li></ul></nav>
+<button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9680;</button>
+<a class="btn btn-small" href="contact.html">Contact</a>
+</header>
+<main id="main">
+
+<section class="container section narrow">
+<p class="hand label">stay on track</p>
+<h1 class="display">Planner</h1>
+<div class="note planner">
+<form id="task-form" class="row" novalidate>
+<label class="sr" for="task-input">New task</label>
+<input id="task-input" type="text" placeholder="e.g. Finish COS 106 project" maxlength="120" autocomplete="off" required>
+<button class="btn btn-primary" type="submit">Add task</button>
+</form>
+<p id="task-error" class="error" role="alert"></p>
+<div class="toolbar"><p id="task-count" class="mono small" aria-live="polite">0 tasks</p>
+<div class="filters" role="group" aria-label="Filter tasks"><button class="chip is-active" data-filter="all">All</button><button class="chip" data-filter="active">Active</button><button class="chip" data-filter="done">Completed</button></div></div>
+<ul id="task-list" class="tasks"></ul>
+<p id="empty" class="empty hand big">Nothing here yet. Add your first task!</p>
+</div>
+</section>
+</main>
+<footer class="site-footer"><p class="mono">&copy; <span id="year">2026</span> Your Name &middot; Built for COS 106, MIVA Open University</p></footer>
+</div>
+<script src="js/main.js" defer></script>
+<script src="js/planner.js" defer></script>
+</body>
+</html>
